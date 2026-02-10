@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-avatar {
+        justify-content: center;
+    }
+
+    .about-body {
+        margin-inline: auto;
+    }
+
+    .about-links {
+        justify-content: center;
+    }
+
+    .site-nav {
+        display: none;
+    }
+}
